@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>美西注册</title>
+		<style type="text/css">
+		</style>
+		<link rel="stylesheet" type="text/css" href="../css/commonstyle.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/RegisterContent.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/logoPic.css "/>
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mycookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src='../js/header.js' type="text/javascript" charset="utf-8"></script>
+		<script src="../js/RegisterContent.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		$(function(){
+			$("#header").load("header.html")
+			$("#logo").load("logoPic.html")
+			$("#footer").load("footer.html")
+		})	
+		</script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		
+		<div id="logo"></div>
+		
+		
+		<div id="content" class="w" style="background: url(../img/headerImg/bg_main.jpg) no-repeat center;">
+			<img class="welcome" src="../img/headerImg/register_bg.png"/>
+			<p class="word">手机验证完成即送100元代金券</p>
+			<div class="inp1">
+				手机/邮箱：<input type="text" value="手机注册更享好礼" />	
+			</div>
+			<div class="inp2">
+				密　 　码：<input type="password" />		
+			</div>
+			<div class="inp3">
+				确认 密码：<input type="password" />
+			</div>
+			<div class="inp4">
+				<input class="check l"  type="checkbox"/><span class="l">订阅美西时尚资讯</span>
+			</div>
+				<input class="rigis_cont_btn" type="button" value="注册" />
+				<p class="p_change">
+					已注册？<a href="login.html">登录</a>
+				</p>
+				<div class="prompt"></div>
+		</div>
+		
+		
+		<div id="footer" class="w"></div>
+		<!--<script src='../js/header.js' type="text/javascript" charset="utf-8"></script>-->
+	</body>
+</html>

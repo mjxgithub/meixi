@@ -1,0 +1,154 @@
+			#footer{ 
+				width:962px; 
+				height:322px;
+				text-align: center;
+			}
+			#footer .help{
+				width:960px;
+				height:120px;
+				border-top: 1px solid #7A7A7A;
+				padding-top:30px;
+			}
+			#footer .help div{
+				float:left;
+				height:86px;
+			
+			}			
+			#footer .help .div1{
+				width:379px;
+				border-right:1px solid #7A7A7A ;
+			}
+			#footer .help .div1 ul li{
+				margin-top:5px;
+				width:94px;
+				text-align: left;
+				line-height: 20px;
+
+			}
+			#footer .help .div1 ul.ult li{
+				line-height: 16px;
+			}
+			#footer .help .div1 ul.ult li a{
+				color:#7A7A7A;
+			} 
+			#footer .help .div1 ul li a:hover{
+				color:#A20D3A;
+			} 
+			#footer .help .div2{
+				text-align: center;
+				padding-top:20px;
+				height:66px;
+				width:239px;
+				border-right:1px solid #7A7A7A ;
+				font-size: 14px;
+			}
+			#footer .help .div2 p span{
+				font-size:16px;
+			}
+			#footer .help .div3{
+				width:149px;
+				text-align: center;
+				border-right:1px solid #7A7A7A ;
+			}
+			#footer .help .div3 a{
+				margin-top:20px;
+				margin-left:52px;
+			}
+			#footer .help .div4{
+				width:150px;
+				padding:0 20px;
+			}
+			#footer .help .div4 span{
+				padding-right: 11px;
+			}
+			#footer .spirit a{
+				display: block;
+				height:22px;
+				float:left;
+				background: lightcoral;
+				margin-bottom: 10px;
+				margin-right:20px;
+			}
+
+			#footer .spirit a.spone{
+				width:22px;
+				margin-left:247px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 -110px
+			}
+			#footer .spirit a.sptwo{
+				width:90px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 -154px;
+			}
+			#footer .spirit a.spthree{
+				width:50px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -12px -132px; 
+			}
+			#footer .spirit a.spfour{
+				width:65px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -188px -181px;
+			}
+			#footer .spirit a.spfive{
+				width:65px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -72px -109px
+			}
+			#footer .spirit a.spsix{
+				width:85px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 -179px;
+			}
+			
+			#footer .spirit a.spone:hover{
+				width:22px;
+				margin-left:247px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 0
+			}
+			#footer .spirit a.sptwo:hover{
+				width:90px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 -44px;
+			}
+			#footer .spirit a.spthree:hover{
+				width:50px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -12px -22px; 
+			}
+			#footer .spirit a.spfour:hover{
+				width:65px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -188px -71px;
+			}
+			#footer .spirit a.spfive:hover{
+				width:65px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat -72px 0px
+			}
+			#footer .spirit a.spsix:hover{
+				width:85px;
+				background:url(../img/headerImg/jinglingtu.jpg) no-repeat 0 -69px;
+			}
+
+			
+			#footer ul.nav.w{
+				line-height:22px; 
+				height:22px; 
+				background: #eeeeee; 
+				padding:0 80px; 
+				width: 800px;
+				margin-bottom: 13px;
+			}
+			#footer ul.nav.w li {padding:0 20px;}
+			#footer ul.nav.w li a:hover{color: white;}
+			#footer ul.nav.w li:hover{background: #999;} 
+			#footer p{line-height: 18px;}
+			#footer .theEndPic{
+				width:142px;
+				 height:35px; 
+				 margin-left: 410px; 
+				 margin-top:12px;
+			}
+
+
+
+
+
+
+
+
+
+
+

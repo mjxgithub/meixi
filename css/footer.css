@@ -1,0 +1,35 @@
+			#footer{ 
+				width:962px; 
+				height:200px;
+				text-align: center;
+				margin-top:20px;
+			}
+			#footer ul.w{
+				line-height:22px; 
+				height:22px; 
+				background: #eeeeee; 
+				padding:0 80px; 
+				width: 800px;
+				 margin-bottom: 13px;
+			}
+			#footer ul.w li {padding:0 20px;}
+			#footer ul.w li a:hover{color: white;}
+			#footer ul.w li:hover{background: #999;} 
+			#footer p{line-height: 18px;}
+			#footer .theEndPic{
+				width:142px;
+				 heigth:35px; 
+				 margin-left: 410px; 
+				 margin-top:12px;
+			}
+
+
+
+
+
+
+
+
+
+
+

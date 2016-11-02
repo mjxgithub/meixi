@@ -1,0 +1,61 @@
+			#content{
+				width:960px; 
+				height:517px; 
+				overflow: hidden; 
+				color:#7A7A7A;
+			}
+			#content div{
+				width:840px; 
+				height: 22px; 
+				margin: 20px 0;
+				margin-left: 135px; 
+				line-height: 22px;
+			}
+			#content div.inp2{
+				height:60px;
+			}
+			#content div.inp2 a{
+				color:#a00;
+			}
+			#content div.inp2 input{
+				width:80px;
+				margin-right: 8px;
+				border:0;
+				background:#fafafa;
+			}
+			#content div.inp2 h3{margin-bottom: 12px;}
+			#content div input{
+				width:140px; 
+				height: 20px; 
+				color:#999;
+			}
+			#content .welcome{
+				margin-left: 90px; 
+				margin-top: 15px;
+			}
+			#content .dotted{
+				width:265px; 
+				height:0px; 
+				border-bottom: 1px dotted black;
+			}
+			
+			#content p.p_change{margin:15px 0 0 300px}
+			#content p.p_change a{color:red}
+			#content .rigis_cont_btn{
+				cursor:pointer; 
+				width:200px; 
+				height:35px; 
+				background: #8e0c3a; 
+				color: #fff; 
+				margin:60px 135px; 
+				border:0;
+			}
+			#content .Check_btn{
+				cursor:pointer; 
+				width:125px; 
+				height:35px; 
+				background: #333; 
+				color: #fff; 
+				margin:20px 50px; 
+				border:0; 
+			}

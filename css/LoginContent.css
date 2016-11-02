@@ -1,0 +1,11 @@
+#content{width:960px; height:517px; overflow: hidden; color:#7A7A7A}
+#content div{width:860px; height: 22px; margin: 20px 0;margin-left: 100px; line-height: 22px;}
+#content div input{width:210px; height: 20px; color:#999}
+#content .inp4 a{margin-left:45px; color:#a00}
+#content .welcome{margin-left: 70px; margin-top: 45px;}
+#content p.word{font-size: 16px;color: #8e0c3a; margin-left:213px ;}
+#content .check{margin:5px 10px 0 65px; width:12px; height: 12px;}
+#content p.p_change{margin:15px 0 0 300px}
+#content p.p_change a{color:red}
+#content .prompt{width:200px; height:30px; margin:10px 0 0 175px;}
+#content .rigis_cont_btn{cursor:pointer; width:204px; height:30px; background: #8e0c3a; color: #fff; margin-left:176px; border:0;}

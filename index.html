@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/commonstyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/TopSearch.css"/>
+		<link rel="stylesheet" type="text/css" href="css/IndexlogoPic.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Indexfooter.css"/>		
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TopSearch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mycookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/IndexPic.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#header").load("html/header.html",function(){
+					if(getCookie("loginState") == "true"){
+						$(".wel").show()
+						$(".register").hide()
+						$(".login").hide()
+						$(".login_btn").show()					
+					}
+				})
+				$.getScript("js/indexheader.js",function(){
+					$.getScript("js/indexheaderajax.js")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		
+		
+		<div id="TopSearch">
+			<div class="w">
+				<a class="hide_logo l" href="#"><img src="img/headerImg/logopic.jpg"/></a>
+				<input class="l search" type="text" value="请输入您的关键字" />
+				<input class="l btn" type="button"/>
+				<div class="r shopNav"><p class="l"><span class="l"></span>时尚导购</p>
+					<div class="HiddenNav">
+						<div class="hideDiv1 l">
+							<p><a href="#">新近单品 New</a></p>
+							<ul>
+								<li><a href="#">今日上新 Today</a></li>
+								<li><a href="#">昨日上新 Yesterday</a></li>
+								<li><a href="#">本周推荐 Week</a></li>
+							</ul>
+						</div>
+						<div class="hideDiv2 l">
+							<p><a href="#">男仕 Man</a></p>
+							<ul>
+								<li><a href="#">所有男士商品 All Man</a></li>
+								<li><a href="#">包袋 Bags</a></li>
+								<li><a href="#">配饰 Accessories</a></li>
+								<li><a href="#">鞋履 Shoes</a></li>
+								<li><a href="#">服装 Clothes</a></li>
+							</ul>
+						</div>
+						<div class="hideDiv3 l">
+							<p><a href="#">女士 Woman</a></p>
+							<ul>
+								<li><a href="#">所有女士商品 All Woman</a></li>
+								<li><a href="#">包袋 Bags</a></li>
+								<li><a href="#">配饰 Accessories</a></li>
+								<li><a href="#">鞋履 Shoes</a></li>
+								<li><a href="#">服装 Clothes</a></li>
+							</ul>
+						</div>
+	    				<div class="hideDiv4 l">
+							<p><a href="#">品牌 Brand</a></p>
+							<ul>
+								<li><a href="#">所有品牌 All Brand</a></li>
+								<li><a href="#">国际大牌 Luxury Brand</a></li>
+								<li><a href="#">设计师品牌 Designer Brand</a></li>
+							</ul>
+						</div>
+						<div class="hideDiv5 l">
+							<p><a href="#">新近单品New</a></p>
+							<ul>
+								<li><a href="#">礼品 Gift</a></li>
+								<li><a href="#">所有礼品 All Gift</a></li>
+								<li><a href="#">送给她 For Her</a></li>
+								<li><a href="#">送给他 For Him</a></li>
+								<li><a href="#">送给自己 For Myself</a></li>
+								<li><a href="#">礼品卡 Gift Card</a></li>
+							</ul>
+						</div>
+						<div class="hideDiv6 l">
+							<p><a href="#">特惠 Sales</a></p>
+							<ul>
+								<li><a href="#">所有特惠 All Sales</a></li>
+								<li><a href="#">包袋 Bags</a></li>
+								<li><a href="#">配饰 Accessories</a></li>
+								<li><a href="#">鞋履 Shoes</a></li>
+								<li><a href="#">服装 Clothes</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--logo图标二维码及二级菜单-->
+		<div id="logo" class="w">
+			<div class="QRcode_logo w">
+				<img class="img1 l" src="img/headerImg/ewm_indexTop.png"/>
+				<img class="img2 l" src="img/headerImg/ewm_txt.png"/>
+				<img  class="img3 l" src="img/headerImg/logo_new.png"/>
+				<div class="search r"><input placeholder="请输入关键词" /><a href="#" class="searchSP r"></a></div>
+			</div>
+			<ul class="ul1">
+				<li class="l"><a class="l" href="index.html">首页</a></li>
+				
+				<li class="l"><a class="l" href="">新近单品</a>
+					<div class="tab tab1">
+						<div class="tab1_1">
+							<p><a href="#"><b>今日上新</b></a></p>
+							<p><a href="#"><b>昨日上新</b></a></p>
+							<p><a href="#"><b>本周上新</b></a></p>
+						</div>
+						<div class="tab1_2">
+							<p><a href="#"><b>男仕man</b></a></p>
+							<ul> 
+								<li><a href="">包袋 Bags</a></li>
+								<li><a href="">配饰 Accessories</a></li>
+								<li><a href="">鞋履 Shoes</a></li>
+								<li><a href=""> 服装 Clothes</a></li>
+							</ul>
+						</div>
+						<div class="tab1_3">
+							<p><a href="#"><b>女士 Woman</b></a></p>
+							<ul> 
+								<li><a href="">包袋 Bags</a></li>
+								<li><a href="">配饰 Accessories</a></li>
+								<li><a href="">鞋履 Shoes</a></li>
+								<li><a href=""> 服装 Clothes</a></li>
+							</ul>
+							
+						</div>
+						<div class="tab1_4">
+							<p><a href="#"><b>今日推荐单品</b></a></p>
+						</div>
+						<div class="tab1_5">
+							<dl>
+								<dt><a href="#"><img height="160",width="160" src="img/headerImg/q-099002-1.jpg" /></a></dt>
+								<dd><a href="#">Tod's 托德斯<br/>小山羊皮 男士 乐福/莫卡辛鞋</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/q-099004-1.jpg" /></a></dt>
+								<dd><a href="#">Tod's 托德斯<br/>小山羊皮 男士 乐福/莫卡辛鞋</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/q-098905-1.jpg" /></a></dt>
+								<dd><a href="#">Roger Vivier 罗杰·维维亚丝绸 女士 皮带</a></dd>
+							</dl>
+						</div>
+						<div class="tab1_6">
+							<p><a href="#">所有男士新品</a></p>
+							<p><a href="#">所有女士新品</a></p>
+						</div>
+						
+						
+					</div>
+				</li>
+				
+				
+				
+				<li class="l"><a class="l" href="">女士</a>
+					<div class="tab tab2">
+						<div class="tab2_1">
+							<p><a href="#"><b>包袋 Bags</b></a></p>
+							<ul>
+								<li><a href="#">所有包袋</a></li>
+								<li><a href="#">手提包 Totes</a></li>
+								<li><a href="#">单肩包 Shoulder Bags</a></li>
+								<li><a href="#">斜挎包 Messenger Bags</a></li>
+								<li><a href="#">手拿包 Clutch Bags</a></li>
+								<li><a href="#">旅行包 Travel Bags </a></li>
+							</ul>
+						</div>
+						<div class="tab2_2">
+							<p><a href="#"><b>配饰 Accessories</b></a></p>
+							<ul>
+								<li><a href="#">所有配饰</a></li>
+								<li><a href="#">手表 Watches</a></li>
+								<li><a href="#">太阳眼镜 Sunglasses</a></li>
+								<li><a href="#">饰品 Jewelry</a></li>
+								<li><a href="#">腰带 Belts</a></li>
+								<li><a href="#">旅行包 Travel Bags </a></li>
+								<li><a href="#"> 围巾 Scarf</a></li>
+								<li><a href="#">数码周边 Technology</a></li>
+								<li><a href="#">小配件 Small Ac</a></li>
+							</ul>
+						</div>
+						<div class="tab2_3">
+							<p><a href="#"><b>鞋履 Shoes</b></a></p>
+							<ul> 
+								<li><a href="">所有鞋履</a></li>
+								<li><a href="">平底鞋 Flat Shoes</a></li>
+								<li><a href="">高跟鞋 Pumps</a></li>
+								<li><a href="">靴子 Boots</a></li>
+							</ul>
+							
+						</div>
+						<div class="tab2_4">
+							<p><a href="#"><b>服装 Clothes</b></a></p>
+							<ul>
+								<li><a href="#">所有服装</a></li>
+								<li><a href="#">卫衣 Hoodies</a></li>
+								<li><a href="#">衬衫 Shirt</a></li>
+								<li><a href="#">针织/毛衫 Knit/Sweater</a></li>
+								<li><a href="#">夹克 Jacket</a></li>
+								<li><a href="#">大衣/风衣 Coat/Dust Coat</a></li>
+								<li><a href="#">半裙 Skirts</a></li>
+								<li><a href="#">连衣裙 Dresses</a></li>
+								<li><a href="#">牛仔 Denims</a></li>
+							</ul>		
+						</div>
+						<div class="tab2_5">
+							<a href="#"><img width="284" height="180" src="img/headerImg/woman1.jpg"/></a>
+						</div>
+						<div class="tab2_6">
+							<a href="#">所有女士商品</a><br />
+						</div>
+					</div>
+				</li>
+				
+				<li class="l"><a class="l" href="">男仕</a>
+					<div class="tab tab3">
+						<div class="tab3_1">
+							<p><a href="#"><b>包袋 Bags</b></a></p>
+							<ul>
+								<li><a href="#">所有包袋</a></li>
+								<li><a href="#">手提包 Totes</a></li>
+								<li><a href="#">单肩包 Shoulder Bags</a></li>
+								<li><a href="#">斜挎包 Messenger Bags</a></li>
+								<li><a href="#">手拿包 Clutch Bags</a></li>
+								<li><a href="#">旅行包 Travel Bags </a></li>
+							</ul>
+						</div>
+						<div class="tab3_2">
+							<p><a href="#"><b>配饰 Accessories</b></a></p>
+							<ul>
+								<li><a href="#">所有配饰</a></li>
+								<li><a href="#">手表 Watches</a></li>
+								<li><a href="#">太阳眼镜 Sunglasses</a></li>
+								<li><a href="#">腰带 Belts</a></li>
+								<li><a href="#">领带 Ties</a></li>
+								<li><a href="#">旅行包 Travel Bags </a></li>
+								<li><a href="#"> 围巾 Scarf</a></li>
+								<li><a href="#">数码周边 Technology</a></li>
+								<li><a href="#">小配件 Small Ac</a></li>
+							</ul>
+						</div>
+						<div class="tab3_3">
+							<p><a href="#"><b>鞋履 Shoes</b></a></p>
+							<ul> 
+								<li><a href="">所有鞋履</a></li>
+								<li><a href="">平底鞋 Flat Shoes</a></li>
+								<li><a href="">休闲鞋 Casual S...</a></li>
+								<li><a href=""> 正装鞋 Business...</a></li>    
+							</ul>
+							
+						</div>
+						<div class="tab3_4">
+							<p><a href="#"><b>服装 Clothes</b></a></p>
+							<ul>
+								<li><a href="#">所有服装</a></li>
+								<li><a href="#">卫衣 Hoodies</a></li>
+								<li><a href="#">T恤/POLO T-Shirt/POLO</a></li>
+								<li><a href="#">衬衫 Shirt</a></li>
+								<li><a href="#">西装套装 Suit</a></li>
+								<li><a href="#">夹克 Jacket</a></li>
+								<li><a href="#">大衣/风衣 Coat/Dust Coat</a></li>
+								<li><a href="#">羽绒服/棉衣 Down Jacket</a></li>
+								<li><a href="#">休闲裤 Casual Pants</a></li>
+								<li><a href="#">牛仔 Denims</a></li>
+							</ul>					
+						</div>
+						<div class="tab3_5">
+							<a href="#"><img width="284" height="180" src="img/headerImg/man1.jpg"/></a>
+						</div>
+						<div class="tab3_6">
+							<a href="#">所有男士商品</a><br />
+						</div>
+						
+					</div>
+				</li>
+				<li class="l"><a class="l" href="">童装</a>
+					<div class="tab tab4">
+						<div class="tab4_2">
+							<p><a href="#"><b>男仕man</b></a></p>
+							<ul> 
+								<li><a href="">包袋 Bags</a></li>
+								<li><a href="">配饰 Accessories</a></li>
+								<li><a href="">鞋履 Shoes</a></li>
+								<li><a href=""> 服装 Clothes</a></li>
+							</ul>
+						</div>
+						<div class="tab4_3">
+							<p><a href="#"><b>女士 Woman</b></a></p>
+							<ul> 
+								<li><a href="">包袋 Bags</a></li>
+								<li><a href="">配饰 Accessories</a></li>
+								<li><a href="">鞋履 Shoes</a></li>
+								<li><a href=""> 服装 Clothes</a></li>
+							</ul>
+							
+						</div>
+						<div class="tab4_4">
+							<p><a href="#"><b>今日推荐单品</b></a></p>
+						</div>
+						<div class="tab4_5">
+							<dl>
+								<dt><a href="#"><img height="160",width="160" src="img/headerImg/child1.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/child2.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/child3.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+						</div>
+						<div class="tab4_6">
+							<p><a href="#">所有童装商品</a></p>
+						</div>
+					</div>
+				</li>
+				
+				
+				<li class="l"><a class="l" href="html/watchlist.html">腕表</a>
+					<div class="tab tab5">
+						<div class="tab5_2">
+							<p><a href="#"><b>男仕腕表</b></a></p>
+							<ul class="uls"> 
+								<li><a href="#"><b>女士腕表</b></a></li>
+								<li><a href="#"><b>石英表</b></a></li>
+								<li><a href="#"><b>机械表</b></a></li>
+							</ul>
+						</div>
+						<div class="tab5_3">
+							<p><a href="#"><b>热门品牌</b></a></p>
+							<ul> 
+								<li><a href="">sevenfriday</a></li>
+								<li><a href="">Calvin Klein 卡尔文·克莱恩</a></li>
+								<li><a href="">Daniel Wellington 丹尼尔·惠灵顿</a></li>
+								<li><a href=""> Tissot 天梭</a></li>
+								<li><a href=""> OMEGA 欧米茄</a></li>
+								<li><a href=""> Longines 浪琴</a></li>
+							</ul>
+							
+						</div>
+						<div class="tab5_4">
+							<p><a href="#"><b>今日推荐单品</b></a></p>
+						</div>
+						<div class="tab5_5">
+							<dl>
+								<dt><a href="#"><img height="160",width="160" src="img/headerImg/watch1.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/watch2.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#"><img  height="160",width="160"  src="img/headerImg/watch3.jpg" /></a></dt>
+								<dd><a href="#">Kenzo 高田贤三Kenzo Baby 棉质 12-16岁少年 卫衣</a></dd>
+							</dl>
+						</div>
+						<div class="tab5_6">
+							<p><a href="#">所有腕表商品</a></p>
+						</div>
+						
+						
+					</div>
+				</li>
+				<li class="l"><a class="l" href="">品牌</a>
+					<div class="tab tab6">
+						<div class="tab6_1">
+							<p><b><a href="#">国际大牌 Luxury Brand</a></b></p>
+							<ul>
+								<li><a href="#">Diesel 迪赛</a></li>
+								<li><a href="#">Gucci 古驰</a></li>
+								<li><a href="#">Bally 巴利</a></li>
+								<li><a href="#">VERSACE JEANS 范思哲牛仔</a></li>
+								<li><a href="#">EA7</a></li>
+								<li><a href="#">Armani 阿玛尼</a></li>
+								<li><a href="#">PAUL&SHARK 保罗与鲨鱼</a></li>
+								<li><a href="#">Love Moschino 莫斯奇诺</a></li>
+							</ul>	
+						</div>
+						<div class="tab6_2">
+							<p><b><a href="#">设计师品牌 Designer Brand</a></b></p>
+							<ul>
+								<li><a href="#">Alexandre 亚历山大</a></li>
+								<li><a href="#">McQ by Alexander McQueen 麦蔻</a></li>
+								<li><a href="#">ANTPITAGORA</a></li>
+								<li><a href="#">LAMY 凌美</a></li>
+								<li><a href="#">Benetton</a></li>
+								<li><a href="#">Howick</a></li>
+								<li><a href="#">UROK</a></li>
+								<li><a href="#">Off White</a></li>
+							</ul>	
+						</div>
+						<div class="tab6_3">
+							<p><b><a href="#">国际大牌 Luxury Brand</a></b></p>
+							<ul>
+								<li><a href="#"><img width="210" height="116" src="img/headerImg/brand1.jpg"/></a>
+									<span><!--Celine<br/> 赛琳--></span>
+								</li>
+								<li><a href="#"><img width="210" height="116" src="img/headerImg/brand2.jpg"/></a>
+									<span><!--Anteprima<br/> 安蒂珮玛--></span>
+								</li>
+							</ul>
+						</div>
+						<div class="tab6_4">
+							<p><b><a href="#">今日设计师推荐</a></b></p>
+							<ul>
+								<li><a href="#"><img width="210" height="116" src="img/headerImg/brand3.jpg"/></a>
+									<span><!--Roberto Cavalli<br/> 罗伯特·卡沃利--></span>
+								</li>
+								<li><a href="#"><img width="210" height="116" src="img/headerImg/brand4.jpg"/></a>
+									<span><!--PEB--></span>
+								</li>
+							</ul>	
+						</div>
+						<div class="tab6_5">
+							<a href="#">所有国际大牌商品</a>
+							<a href="#">所有设计师品牌商品</a>
+						</div>					
+					</div>
+				</li>
+				
+				<li class="l"><a class="l" href="">特惠区</a>
+					<div class="tab tab7">
+						<div class="tab7_1">
+							<p><b><a href="#">国际大牌 Luxury Brand</a></b></p>
+							<ul>
+								<li><a href="#">Armani 阿玛尼</a></li>
+								<li><a href="#">Bally 巴利</a></li>
+								<li><a href="#">Bottega Veneta 葆蝶家</a></li>
+								<li><a href="#">Dior 迪奥</a></li>
+								<li><a href="#">Dolce&Gabbana 杜嘉班纳</a></li>
+								<li><a href="#">Fendi 芬迪</a></li>
+								<li><a href="#">Salvatore Ferragamo 菲拉格慕</a></li>
+							</ul>	
+						</div>
+						<div class="tab7_2">
+							<p><b><a href="#">男士man</a></b></p>
+							<ul> 	
+								<li><a href="#">包袋 Bags</a></li>
+								<li><a href="#">鞋履 Shoes</a></li>
+								<li><a href="#">配饰 Accessories</a></li>
+								<li><a href="#">服装 Clothes</a></li>
+								<li class="liimg"><a href="#"><img width="310" height="170" src="img/headerImg/tehui1.jpg"/></a></li>
+							</ul>
+						</div>
+						<div class="tab7_3">
+							<p><b><a href="#">女士woman</a></b></p>
+							<ul>
+								<li><a href="#">包袋 Bags</a></li>
+								<li><a href="#">鞋履 Shoes</a></li>
+								<li><a href="#">配饰 Accessories</a></li>
+								<li><a href="#">服装 Clothes</a></li>								
+								<li class="liimg"><a href="#"><img width="310" height="170" src="img/headerImg/tehui2.jpg"/></a></li>
+							</ul>	
+						</div>
+						<div class="tab7_4">
+							<a href="#">所有男士特惠</a>
+							<a href="#">所有女士特惠</a>
+						</div>					
+						
+					</div>
+				</li>
+				<li class="l teshu"><a class="l" href="">M潮流</a></li>
+			</ul>
+		</div>
+		
+		<div id="banner" class="w">
+			<ul class="w bannerUl">
+				<li class="l"><a href="#"><img src="img/1470821686144658235.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/14709877611028846144.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/1471002000969034283.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/14710020051580566007.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/1471259187109703782.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/1471337525643754905.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/14716041621260938717.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/147160416649439689.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/1471604221507771175.jpg"/></a></li>
+				<li class="l"><a href="#"><img src="img/1471233411977952268.jpg"/></a></li>
+			</ul>
+			<div class="leftBtn">
+				<a  href="javascript:;">&lt;</a>
+			</div>
+			<div class="rightBtn">
+				<a href="javascript:;">&gt;</a>
+			</div>	
+		</div>
+		
+		<div id="floor1" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>Special Offer<br/>特别推荐</span>
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist1">
+				<div class="f1_left l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f1.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f2.jpg"/></a>
+					</div>
+				</div>				
+				<div class="f1_middle l">
+					<a href="#"><img src="img/indexImg/f3.jpg"/></a>
+				</div>				
+				<div class="f1_right l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f4.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f5.jpg"/></a>
+					</div>
+				</div>					
+			</div>
+		</div>
+		
+		
+		<div id="floor2" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>Editor's Pick<br/>编辑推荐</span>
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist1">
+				<div class="f1_left l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f6.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f7.jpg"/></a>
+					</div>
+				</div>				
+				<div class="f1_middle l">
+					<a href="#"><img src="img/indexImg/f8.jpg"/></a>
+				</div>				
+				<div class="f1_right l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f9.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f10.jpg"/></a>
+					</div>
+				</div>					
+			</div>
+		</div>
+		
+		
+		<div id="floor3" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>For Him<br/>男仕精选</span>
+
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist1">
+				<div class="f1_left l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f11.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f12.jpg"/></a>
+					</div>
+				</div>				
+				<div class="f1_middle l">
+					<a href="#"><img src="img/indexImg/f13.jpg"/></a>
+				</div>				
+				<div class="f1_right l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f14.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f15.jpg"/></a>
+					</div>
+				</div>					
+			</div>
+		</div>
+		
+		<div id="floor4" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>For Her<br/>女士精选</span>
+
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist1">
+				<div class="f1_left l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f16.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f17.jpg"/></a>
+					</div>
+				</div>				
+				<div class="f1_middle l">
+					<a href="#"><img src="img/indexImg/f18.jpg"/></a>
+				</div>				
+				<div class="f1_right l">
+					<div class="up">
+						<a href="#"><img src="img/indexImg/f19.jpg"/></a>
+					</div>
+					<div>
+						<a href="#"><img src="img/indexImg/f20.jpg"/></a>
+					</div>
+				</div>					
+			</div>
+		</div>
+		
+		
+		
+		<div id="floor5" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>BEING SOLD<br/>正被选购</span>
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="lunbo">
+				<ul>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f21.jpg"/></a></dt>
+							<dd>TOMBOLINI<br/>东博利尼 全棉 男士 长袖衬衫</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f22.jpg"/></a></dt>
+							<dd>HOGAN <br/>东博利尼</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f23.jpg"/></a></dt>
+							<dd>Blugirl<br/>蓝色少女</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f24.jpg"/></a></dt>
+							<dd>Just Cavalli<br/>卡沃利 棉质 女士 牛仔裤</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f25.jpg"/></a></dt>
+							<dd>Just Cavalli<br/>卡沃利 人造丝 女士 连衣裙</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f26.jpg"/></a></dt>
+							<dd>Moncler<br/>蒙口 全棉 男士 休闲裤</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f27.jpg"/></a></dt>
+							<dd>Salvatore Ferragamo<br/>菲拉格慕</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f28.jpg"/></a></dt>
+							<dd>Tod's<br/>托德斯</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f29.jpg"/></a></dt>
+							<dd>Blugirl<br/>蓝色少女</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f30.jpg"/></a></dt>
+							<dd>HOGAN<br/>霍根</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f31.jpg"/></a></dt>
+							<dd>Salvatore<br/>菲拉格慕</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f32.jpg"/></a></dt>
+							<dd>Blugirl<br/>蓝色少女</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f33.jpg"/></a></dt>
+							<dd>Blugirl<br/>菲拉格慕</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f34.jpg"/></a></dt>
+							<dd>Ferragamo<br/>菲拉格慕</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f35.jpg"/></a></dt>
+							<dd>Tod's<br/>托德斯</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f36.jpg"/></a></dt>
+							<dd>HOGAN<br/>霍根</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f37.jpg"/></a></dt>
+							<dd>Blugirl<br/>蓝色少女</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f38.jpg"/></a></dt>
+							<dd>TOMBOLINI<br/>东博利尼</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f39.jpg"/></a></dt>
+							<dd>Moncler<br/>菲拉格慕</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+					<li class="l">
+						<dl>
+							<dt><a href="#"><img src="img/indexImg/f40.jpg"/></a></dt>
+							<dd>Blugirl<br/>蓝色少女</dd>
+							<dd class="dddown">已加入收藏</dd>						
+						</dl>
+					</li>
+				</ul>				
+			</div>
+			<div class="prev"></div>
+			<div class="next"></div>	
+		</div>
+		
+		<div id="floor6" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>M TRENDS<br/>时尚专题推荐</span>
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist">
+				<div class="leftDiv l">
+					<div class="wordDiv">
+						<span>想面试通过，穿的时髦是第一步</span>
+					</div>	
+					<a href="#"><img width="316" height="247" src="img/indexImg/f41.jpg"/></a>
+				</div>
+				<div class="middleDiv l">
+					<div class="wordDiv">
+						<span>时尚型男的必备“武器”</span>
+					</div>
+					<a href="#"><img width="316" height="247" src="img/indexImg/f42.jpg"/></a>
+				</div>
+				<div class="rightDiv l">
+					<div class="wordDiv">
+						<span>觉得真丝太老气？那是你没穿对</span>
+					</div>
+					<a href="#"><img width="316" height="247" src="img/indexImg/f43.jpg"/></a>
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div id="floor7" class="w">
+			<div class="title w">
+				<div class="side l"></div>
+				<div class="middle l">
+					<span>SUBSCRIBE& DOWNLOAD<br/>体验更多</span>
+				</div>
+				<div class="side l"></div>
+			</div>
+			<div class="goodslist">
+				<div class="leftDiv l">
+					<a href="#"><img width="316" height="215" src="img/indexImg/f44.jpg"/></a>
+				</div>
+				<div class="middleDiv l">
+					<a href="#"><img width="316" height="178" src="img/indexImg/f45.jpg"/></a>
+					<input class="text" type="text" placeholder="请填写您的邮箱" />
+					<input class="butt" type="button" value="即刻订阅" />
+				</div>
+				<div class="rightDiv l">
+					<a href="#"><img width="316" height="215" src="img/indexImg/f46.jpg"/></a>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div id="footer" class="w">
+			<div class="help">
+				<div class="div1">
+					<ul>
+						<li class="l"><b><a href="">购物指南</a></b></li>
+						<li class="l"><b><a href="">支付方式</a></b></li>
+						<li class="l"><b><a href="">商品说明</a></b></li>
+						<li class="l"><b><a href="">客服中心</a></b></li>
+					</ul>
+					<ul class="ult">
+						<li class="l"><a href="">购物流程</a></li>
+						<li class="l"><a href="">如何付款</a></li>
+						<li class="l"><a href="">商品尺码</a></li>
+						<li class="l"><a href="">七天退换</a></li>
+					</ul>
+					<ul class="ult">
+						<li class="l"><a href="">配送方式</a></li>
+						<li class="l"><a href="">发票制度</a></li>
+						<li class="l"><a href="">商品包装</a></li>
+						<li class="l"><a href="">常见问题</a></li>
+					</ul>
+				</div>
+				<div class="div2">
+					<b><p>订购热线<br /><br /><span>4000-250-630</span></p></b>
+				</div>
+				<div class="div3">
+					<b><p>在线客服</p></b>
+					<a class="l" href="#"><img class="l" src="img/headerImg/kefu.jpg"/></a>
+				</div>
+				<div class="div4">
+					<span>美西时尚APP</span>
+					<span>关注我们</span>
+					<a class="l" href="#"><img src="img/indexImg/indexBot1.png"/></a>
+					<a class="r" href="#"><img src="img/indexImg/indexBot2.png"/></a>				
+				</div>
+			</div>
+			<ul class="w nav">
+				<li class="l"><a href="index.html">首页</a></li>
+				<li class="l"><a href="#">关于美西</a></li>
+				<li class="l"><a href="#">媒体报道</a></li>
+				<li class="l"><a href="#">正品保证</a></li>
+				<li class="l"><a href="#">业务合作</a></li>
+				<li class="l"><a href="#">隐私声明</a></li>
+				<li class="l"><a href="#">加入美西</a></li>
+				<li class="l"><a href="#">网站地图</a></li>
+				<li class="l teshu"><a href="#">联系我们</a></li>
+			</ul>
+			<div class="spirit">
+				<a class="spone"></a>
+				<a class="sptwo"></a>
+				<a class="spthree"></a>
+				<a class="spfour"></a>
+				<a class="spfive"></a>
+				<a class="spsix"></a>
+			</div>
+			<p class="cle">Copyright © 2008-2016 美西时尚-<a href="#">高端时尚生活电商</a></p>
+			<p><a href="#">沪ICP备09001221号</a></p>
+			<div class="theEndPic">
+				<a class="l check_pic" href=""><img src="img/headerImg/hy_83x30.png" /></a>
+				<a class="r badge" href=""><img src="img/headerImg/gongshang.png" /></a>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

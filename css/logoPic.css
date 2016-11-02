@@ -1,0 +1,43 @@
+
+.w.QRcode_logo{
+	height:74px; 
+	padding:15px; 
+	margin-top:8px; 
+	width:932px;
+	margin-bottom: 15px;
+}
+
+.w.QRcode_logo .img2{
+	margin:25px 160px 0 6px;
+}
+.w.QRcode_logo .img3{
+	margin-top:15px;
+}
+.w.QRcode_logo .search{margin-top: 25px;}
+.w.QRcode_logo .search input{width:130px ; 
+	height:24px; 
+	border: 1px solid #ccc; 
+	border-right:0;
+}
+.w.QRcode_logo .search .searchSP{
+	cursor:pointer; 
+	border: 1px solid #ccc; 
+	border-left: 0; 
+	display:block ; 
+	width:24px; 
+	height:24px; 
+	background: url(../img/headerImg/searchBtn.gif) no-repeat center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,312 @@
+#statement.w{
+	height:27px;
+	background: url(../img/cartImg/process02.gif) no-repeat center;
+	margin: 15px auto;
+}
+
+
+#userinfor{
+	width: 958px;
+	min-height:350px;
+	border: 1px solid #ccc;
+	
+}
+#userinfor h4.topcomment{
+	width:950px;
+	background:#eee;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+#userinfor .same{
+	width:960px;
+	height:320px;
+}
+#userinfor .same h4{
+	width: 930px;
+	height:70px;
+	line-height:70px;
+	padding-left:30px;
+}
+#userinfor .same div.input1,div.input2,div.input3,div.input4,div.input5,div.input6,div.input7{
+	width:460px;
+	height:22px;
+	margin-bottom: 10px;
+	margin-left:50px;
+}
+#userinfor .same i{
+	color:#8E0C3A;
+	margin-right:5px;
+}
+#userinfor .same div.input3 input{
+	width:280px;
+}
+#userinfor .same div.input7{
+	line-height: 22px;
+}
+#userinfor .same div.input7 input{
+	width:16px;
+	height: 16px;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+#userinfor .same div.input6 input{
+	margin-left: 100px;
+	background: #8E0C3A;
+	color:#fff;
+	width:80px;
+	height:25px;
+	border: 0;
+}
+#userinfor .same.showyourinfor{
+	width:210px;
+	display: none;
+	min-height: 150px;
+	margin-left:50px ;
+}
+#userinfor .same.showyourinfor p{
+	width:210px;
+	height: 30px;
+	line-height: 30px;
+}
+#userinfor .same.showyourinfor p span{
+	margin-left: 50px;
+	color:#8E0C3A;
+}
+#userinfor .same.showyourinfor .username{
+	width:210px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+#userinfor .same.showyourinfor .userphone{
+	width:210px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+#userinfor .same.showyourinfor .useradress{
+	min-height: 30px;
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
+	width:210px;
+	margin-bottom: 20px;
+}
+
+#paymethod{
+	min-height: 250px;
+	width: 958px;
+	border: 1px solid #ccc;
+	border-top:0;
+}
+#paymethod h4.title{
+	margin-left: 30px;
+	line-height: 60px;
+}
+#paymethod>p{
+	margin-left: 50px;
+	line-height: 20px;
+	color:#7A7A7A
+}
+#paymethod>div{
+	padding-left:50px;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+}
+#paymethod>div input{
+	margin-top: 10px;
+	margin-right:10px;
+}
+#paymethod>div>label>p{
+	width:880px;
+	color:#7A7A7A;
+}
+
+#paymethod>div.payinbank div{
+	border: 1px solid #ccc;
+	width:240px;
+	height:150px;
+	margin:0 15px;
+	padding-left: 20px;
+	background: #fff;
+}
+#getTime.w {
+	width: 958px;
+	height:270px;
+	border: 1px solid #ccc;
+	border-top:0;
+}
+
+#getTime.w label{
+	display: block;
+	width:910px;
+	height:35px;
+	line-height: 35px;
+	padding-left: 50px;
+	color:#6c6c6c
+}
+#getTime>h4{
+	margin-left: 30px;
+	line-height: 60px;
+}
+#getTime>p{
+	margin-left: 50px;
+	line-height: 20px;
+	color:#6c6c6c
+}
+#getTime p a{
+	color:#ccc;
+}
+#getTime .lastp{
+	margin-top: 20px;
+}
+
+#package{
+	width:958px;
+	border: 1px solid #ccc;
+	border-top:0;
+	height:435px;
+}
+#package h4{
+	margin-left: 30px;
+	line-height: 60px;
+}
+#package .standard,.normal,.gift{
+	height:35px;
+	width: 908px;
+	line-height: 35px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+#package .normal{
+	height:35px;
+	width: 908px;
+	line-height: 35px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+#package .gift{
+	height:35px;
+	width: 908px;
+	line-height: 35px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+#package>div.standard{
+	height:135px;
+	background: #f5f5f5;
+}
+#package span{
+	display: inline-block;
+	color:#8E0C3A;
+	margin:15px 15px 20px 50px;
+}
+
+#package div.textar{
+	width:780px;
+	height:100px;
+	margin-left: 50px;
+}
+#package div.textar textarea{
+	width:700px;
+	height: 70px;
+	resize: none;
+}
+
+#SureYourOrder{
+	min-height: 450px;
+	width:918px;
+	border: 1px solid #ccc;
+	border-top:0;
+	padding:0 20px;
+}
+#SureYourOrder h4{
+	line-height: 50px;
+}
+
+
+#SureYourOrder.w .success{
+	width:900px;
+	height:35px;
+	margin:15px 0;
+	background:#f4fff3;
+	line-height: 35px;
+	border: 1px solid #8cbe7c;
+	color:#7a7a7a;
+	padding-left: 60px;
+}
+#SureYourOrder.w table.table1{
+	background: #eee;
+	width: 918px;
+	height:35px;
+}
+#SureYourOrder.w  table.table1 td{
+	width:184px;
+	height:35px;
+	text-align: center;
+}
+#SureYourOrder.w ul{
+	width:918px;
+	height:90px;
+	border-bottom: 1px solid #ccc;
+}
+#SureYourOrder.w ul li{
+	color:#7A7A7A;
+	text-align: center;
+	float: left;
+	width:182px;
+	height:90px;
+	line-height: 90px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#SureYourOrder.w ul li img{
+	margin-left: 55px;
+	margin-top:15px;
+	width:50px;
+	height:60px;
+}
+
+#SureYourOrder .table2 td{
+	width:100px;
+	text-align: center;
+	color:#7A7A7A;
+}
+
+#SureYourOrder .suretopay{
+	line-height: 25px;
+	width:918px;
+	height:50px;
+}
+#SureYourOrder .suretopay input{
+	height:22px;
+}
+#SureYourOrder .suretopay input.youhui{
+	width:100px;
+	border: 0;
+	background: #333333;
+	color:#fff;
+	margin-left: 15px;
+
+}
+#SureYourOrder .allinformation .thelastsure{
+	width: 918px;
+	height:50px;
+	margin-bottom: 15px;
+}
+#SureYourOrder .allinformation .thelastsure .nowtopay{
+	height:48px;
+	width:158px;
+	background: url(../img/cartImg/cartbtn.gif) no-repeat center;
+	border: 0;	
+	cursor: pointer;
+}
+#SureYourOrder .allinformation .contain{
+	width: 918px;
+	height:150px;
+}
+
+

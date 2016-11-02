@@ -1,0 +1,134 @@
+#statement.w{
+	height:27px;
+	background: url(../img/cartImg/process03.gif) no-repeat center;
+	margin: 15px auto;
+}
+
+#successful{
+	height:173px;
+	width: 958px;
+	border: 1px solid #dda1b6;
+	background: #f7f0f2;
+}
+#successful h1{
+	width: 958px;
+	line-height: 40px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	font-weight: lighter;
+}
+#successful h1 span{
+	display: inline-block;
+	float: left;
+	width:40px;
+	height: 40px;
+	background: url(../img/cartImg/tipico01.png) no-repeat 0 0;
+}
+#successful p{
+	line-height: 35px;
+	margin-left: 40px;
+}
+#successful p span{
+	color: #8E0C3A;
+}
+
+#choosepaytype{
+	width: 958px;
+	border: 1px solid #ccc;
+	height:12px;
+	padding:34px 0;
+	margin-top: 10px;
+	color:#7A7A7A
+}
+#choosepaytype .label1{
+	margin-left:50px;
+	margin-right: 50px;
+}
+#choosepaytype .label1 span{
+	color:#8E0C3A;
+}
+
+#banktype{
+	height:570px;
+	width: 838px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding:40px 60px;
+}
+#banktype>p{
+	line-height: 28px;
+	border-bottom: 1px solid #ccc;
+}
+#banktype>p a{
+	color: #7A7A7A;
+}
+
+#banktype div.bank_choose{
+	margin:17px 0 0 15px;
+	width:148px;
+	height:50px;
+	border: 1px solid #ccc;
+	position: relative;
+	text-align: center;
+}
+#banktype div.bank_choose .chosed{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	display: none;
+}
+#banktype div.bank_choose span{
+	width: 0;
+	height:50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#banktype div.bank_choose img{
+	display: inline-block;
+	vertical-align: middle;
+}
+#banktype>p{
+	width:838px;
+	margin-top:20px;
+	height:28px;
+	
+}
+#banktype .topay{
+	margin-top:30px;
+	width:838px;
+	height:50px;
+	
+}
+#banktype .topay input{
+	cursor: pointer;
+	border: 0;
+	width:150px;
+	height: 50px;
+	background: url(../img/cartImg/paybtn.jpg) no-repeat center;
+}
+
+#banktype .tishi{
+	display: block;
+	width:838px;
+	height:40px;
+	margin-top:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

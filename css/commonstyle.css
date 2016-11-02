@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,input,p,img,a{padding:0;margin:0;}
+
+body{font-size:12px;font-family:"微软雅黑";}
+img{display:block;border:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+a:hover{color:red;}
+
+
+
+.w{width:962px; margin: 0 auto;}
+.l{float:left;}
+.r{float:right;}
+.p_re{position:relative}
+.p_ab{position:absolute}
+.cle{clear: both;}
+
